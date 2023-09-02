@@ -117,58 +117,33 @@ layout: default
 
 ---
 transition: slide-up
+class: text-center
 
 level: 2
 ---
 
-# Navigation
+# Visual Studio Code
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
+ ## Visual Studio Code is a code editor made by Microsoft for Windows, Linux and macOS. It offers support for tons of programming languages and highly customizable.​
 
-### Keyboard Shortcuts
+ <br>
+ <img class="rounded mx-auto d-block" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"  width="200"/>
+ <br>
 
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
-
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
+  ## Lets take a look at what we can do
 ---
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+layout: default
+
 ---
 
 # Code
 
-Use code snippets and get the highlighting directly![^1]
+  <img  v-click="[0, 2]" class="rounded mx-auto d-block" src="images/FileExplorerVSC.png" />
+  <img  v-click="[2, 5]" class="rounded mx-auto d-block" src="images/baseVSC.png" />
+  <arrow v-click="[2, 3]" x1="200" y1="125" x2="80" y2="125" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[3, 4]" x1="200" y1="225" x2="80" y2="225" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[4, 5]" x1="200" y1="225" x2="80" y2="225" color="#ff0000" width="5" arrowSize="4" />
 
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
-}
-```
-
-<arrow v-click="[3, 4]" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
 
 <style>
 .footnotes-sep {
