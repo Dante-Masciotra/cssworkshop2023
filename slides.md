@@ -61,9 +61,9 @@ transition: fade-out
   <br>
   <div class="text-left">
 
-  - 📝 FACTS ABOUT ME
-  - 🎨 FACTS ABOUT ME
-  - 🧑‍💻 FACTS ABOUT ME
+  - 📝 4th Year Student
+  - 🎨 Runs a Cooking Instagram Page [@dante.al.dente](https://www.instagram.com/dante.al.dente/) 
+  - 🧑‍💻 Winner of Hack The North 2022
 
   </div>
 </div>
