@@ -118,8 +118,6 @@ layout: default
 ---
 transition: slide-up
 class: text-center
-
-level: 2
 ---
 
 # Visual Studio Code
@@ -133,71 +131,43 @@ level: 2
   ## Lets take a look at what we can do
 ---
 layout: default
-
+level: 2
 ---
 
-# Code
+# File Explorer
+  <img class="rounded mx-auto d-block"  x1="0" y1="0" src="images/FileExplorerVSC.png" />
+  <arrow v-click="[1, 2]" x1="200" y1="125" x2="80" y2="125" color="#ff0000" width="5" arrowSize="4" />
 
-  <img  v-click="[0, 2]" class="rounded mx-auto d-block" src="images/FileExplorerVSC.png" />
-  <img  v-click="[2, 5]" class="rounded mx-auto d-block" src="images/baseVSC.png" />
-  <arrow v-click="[2, 3]" x1="200" y1="125" x2="80" y2="125" color="#ff0000" width="5" arrowSize="4" />
-  <arrow v-click="[3, 4]" x1="200" y1="225" x2="80" y2="225" color="#ff0000" width="5" arrowSize="4" />
-  <arrow v-click="[4, 5]" x1="200" y1="225" x2="80" y2="225" color="#ff0000" width="5" arrowSize="4" />
-
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
 
 ---
+level: 2
+---
 
-# Components
+# Extensions
+  <img  class="rounded mx-auto d-block" src="images/baseVSC.png" />
 
-<div grid="~ cols-2 gap-4">
-<div>
+  <arrow v-click="[1, 2]" x1="200" y1="210" x2="80" y2="210" color="#ff0000" width="5" arrowSize="4" />
 
-You can use Vue components directly inside your slides.
+---
+level: 2
+---
 
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
+# Remote Explorer
+  <img  class="rounded mx-auto d-block" src="images/sshVSC.png" />
 
-```html
-<Counter :count="10" />
-```
+  <arrow v-click="[1, 2]" x1="200" y1="217" x2="80" y2="217" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[2, 3]" x1="270" y1="155" x2="155" y2="155" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[3, 4]" x1="600" y1="117" x2="460" y2="117" color="#ff0000" width="5" arrowSize="4" />
 
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
+---
+level: 2
+---
 
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
+# Remote Explorer Path
 
+<div class="text-center align-middle">
+  <h2>ssh [Username]@cs.uwindsor.ca </h2>
 </div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
 
 
 ---
