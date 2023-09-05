@@ -130,6 +130,7 @@ class: text-center
 
   ## Lets take a look at what we can do
 ---
+transition: slide-left
 layout: default
 level: 2
 ---
@@ -140,6 +141,7 @@ level: 2
 
 
 ---
+transition: slide-up
 level: 2
 ---
 
@@ -180,6 +182,7 @@ GitLens
 
 
 ---
+transition: slide-up
 level: 2
 ---
 
@@ -205,6 +208,7 @@ ssh [Username]@cs.uwindsor.ca
 
 ---
 class: px-20
+transition: slide-up
 level: 2
 ---
 
@@ -217,6 +221,7 @@ level: 2
   <arrow v-click="[3, 4]" x1="430" y1="462" x2="333" y2="462" color="#ff0000" width="5" arrowSize="4" />
 
 ---
+transition: fade-out
 level: 3
 ---
 
@@ -298,6 +303,7 @@ class: text-center
 ---
 layout: default
 level: 2
+transition: slide-up
 class: text-center 
 ---
 
@@ -345,95 +351,46 @@ To run a Distro that is not default
 <br>
 
 ---
+layout: default
+level: 3
+transition: slide-up
+class: text-center 
+---
 
-# Diagrams
+# What you can while in WSL
 
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
+<br>
 
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
+## Now that your in a linux envoriment you have access to all the best linux tools
+<div grid="~ cols-2 gap-2" m="-t-2">
 
-```mermaid {scale: 0.5}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
+  ls
+  
+  ps
+  
+  cat
 
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
+  
+  env
+  
+  killall
+  
+  ssh
 
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectivness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
+  tail
+  
+  iptables
+  
+  cp
+  
 
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
+  sudo
 </div>
-
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
-
----
-src: ./pages/multiple-entries.md
-hide: false
----
 
 ---
 layout: center
 class: text-center
+level: 3
 ---
 
-# Learn More
-
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+# Thank You for Listening
