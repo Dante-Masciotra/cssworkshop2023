@@ -170,11 +170,11 @@ Code Runner
 
 2
 
-2
+Git Graph
 
 3
 
-3
+GitLens
 
 </div>
 
@@ -196,8 +196,11 @@ level: 3
 
 # Remote Explorer Path
 
-<div class="text-center align-middle">
-  <h2>ssh [Username]@cs.uwindsor.ca </h2>
+<div class="text-center">
+
+```bash
+ssh [Username]@cs.uwindsor.ca
+```
 </div>
 
 ---
@@ -248,32 +251,98 @@ level: 3
 
 
 ---
+transition: slide-up
+class: text-center
+---
 
-# LaTeX
+# Windows Subsystem for Linux (WSL)
 
-LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
+ ## WSL is a feature of Windows that allows you to run a Linux environment without the need for a separate virtual machine or dual booting
+
+ <br>
+ <img class="rounded mx-auto d-block" src="images/WSL.png"  width="200"/>
+ <br>
+
+  ## Lets take a look at what we can do
+---
+layout: default
+level: 2
+class: text-center 
+---
+# Install
+### To install WSL run the below command in PowerShell. This will install the default Distro which is the latest version of Ubuntu
+<br>
+
+  ```bash
+  wsl --intsall
+  ```
+<br>
+<br>
+
+### To look for available Distros 
+<br>
+
+  ```bash
+  wsl --list --online
+  ```
+<br>
+<br>
+
+### Then to install a desired distro
+<br>
+
+ ```bash
+ wsl --install -d DISTRO-NAME
+  ```
+
+---
+layout: default
+level: 2
+class: text-center 
+---
+
+# Config
+
+### If you want to run mutiple Distros than here are some helpful commands to config WSL to your prefences
+
+<br>
+To set default Distro
+
+  ```bash
+  wsl --set-default Distribution-Name
+  ```
 
 <br>
 
-Inline $\sqrt{3x-1}+(1+x)^2$
+### If forget your password you'll need to run the following commands
 
-Block
-$$
-\begin{array}{c}
+  ```bash
+  wsl -u root
+  passwd username
+  ```
+---
+layout: default
+level: 2
+class: text-center 
+---
 
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &
-= \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
-
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
-
-\nabla \cdot \vec{\mathbf{B}} & = 0
-
-\end{array}
-$$
+# Run
 
 <br>
+To run a WSL in a desired folder open your desired path in CMD or Powershell
+<br>
 
-[Learn more](https://sli.dev/guide/syntax#latex)
+  ```bash
+  C:\your\path> wsl
+  ```
+<br>
+To run a Distro that is not default
+<br>
+
+  ```bash
+  C:\your\path> wsl --distribution Distribution Name 
+  ```
+<br>
 
 ---
 
