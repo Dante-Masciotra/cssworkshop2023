@@ -135,7 +135,7 @@ level: 2
 ---
 
 # File Explorer
-  <img class="rounded mx-auto d-block"  x1="0" y1="0" src="images/FileExplorerVSC.png" />
+  <img class="rounded mx-auto d-block"  x1="0" y1="0" src="/images/FileExplorerVSC.png" />
   <arrow v-click="[1, 2]" x1="200" y1="125" x2="80" y2="125" color="#ff0000" width="5" arrowSize="4" />
 
 
@@ -144,7 +144,7 @@ level: 2
 ---
 
 # Extensions
-  <img  class="rounded mx-auto d-block" src="images/baseVSC.png" />
+  <img  class="rounded mx-auto d-block" src="/images/baseVSC.png" />
 
   <arrow v-click="[1, 2]" x1="200" y1="210" x2="80" y2="210" color="#ff0000" width="5" arrowSize="4" />
 
@@ -184,7 +184,7 @@ level: 2
 ---
 
 # Remote Explorer
-  <img  class="rounded mx-auto d-block" src="images/sshVSC.png" />
+  <img  class="rounded mx-auto d-block" src="/images/sshVSC.png" />
 
   <arrow v-click="[1, 2]" x1="200" y1="217" x2="80" y2="217" color="#ff0000" width="5" arrowSize="4" />
   <arrow v-click="[2, 3]" x1="270" y1="155" x2="155" y2="155" color="#ff0000" width="5" arrowSize="4" />
@@ -210,7 +210,7 @@ level: 2
 
 # Themes
 
-  <img  class="rounded mx-auto d-block" src="images/themeVSC1.png" />
+  <img  class="rounded mx-auto d-block" src="/images/themeVSC1.png" />
 
   <arrow v-click="[1, 2]" x1="90" y1="350" x2="90" y2="460" color="#ff0000" width="5" arrowSize="4" />
   <arrow v-click="[2, 3]" x1="270" y1="463" x2="140" y2="463" color="#ff0000" width="5" arrowSize="4" />
@@ -232,9 +232,9 @@ Borhan - Your Favorite
 
 Dante - [Noctics Obescuro](https://vscodethemes.com/e/liviuschera.noctis/noctis-obscuro?language=javascript)
 
-<img border="rounded" src="images/synthWave.png">
+<img border="rounded" src="/images/synthWave.png">
 
-<img border="rounded" src="images/Noctis.png">
+<img border="rounded" src="/images/Noctis.png">
 
 </div>
 
@@ -247,7 +247,7 @@ level: 3
 
 # If You Like This One Then . . . 
 
-<img border="rounded mx-auto d-block" src="images/lightMode.png">
+<img border="rounded mx-auto d-block" src="/images/lightMode.png">
 
 
 ---
@@ -260,7 +260,7 @@ class: text-center
  ## WSL is a feature of Windows that allows you to run a Linux environment without the need for a separate virtual machine or dual booting
 
  <br>
- <img class="rounded mx-auto d-block" src="images/WSL.png"  width="200"/>
+ <img class="rounded mx-auto d-block" src="/images/WSL.png"  width="200"/>
  <br>
 
   ## Lets take a look at what we can do
