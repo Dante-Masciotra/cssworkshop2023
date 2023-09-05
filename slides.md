@@ -113,7 +113,7 @@ layout: default
 
 # Table of contents
 
-<Toc maxDepth="1"></Toc>
+<Toc maxDepth="2"></Toc>
 
 ---
 transition: slide-up
@@ -149,6 +149,37 @@ level: 2
   <arrow v-click="[1, 2]" x1="200" y1="210" x2="80" y2="210" color="#ff0000" width="5" arrowSize="4" />
 
 ---
+level: 3
+---
+
+# Our Favorite Extensions
+
+VSC has large library of extensions check them out in extensions tab or at **https://marketplace.visualstudio.com/vscode**.
+
+Here are some of our favorites
+
+<div class="text-center" grid="~ cols-2 gap-2" m="-t-2">
+
+<h2>Borhan</h2>
+
+<h2>Dante</h2>
+
+1
+
+Code Runner
+
+2
+
+2
+
+3
+
+3
+
+</div>
+
+
+---
 level: 2
 ---
 
@@ -160,7 +191,7 @@ level: 2
   <arrow v-click="[3, 4]" x1="600" y1="117" x2="460" y2="117" color="#ff0000" width="5" arrowSize="4" />
 
 ---
-level: 2
+level: 3
 ---
 
 # Remote Explorer Path
@@ -169,113 +200,52 @@ level: 2
   <h2>ssh [Username]@cs.uwindsor.ca </h2>
 </div>
 
-
 ---
 class: px-20
+level: 2
 ---
 
 # Themes
 
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
+  <img  class="rounded mx-auto d-block" src="images/themeVSC1.png" />
+
+  <arrow v-click="[1, 2]" x1="90" y1="350" x2="90" y2="460" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[2, 3]" x1="270" y1="463" x2="140" y2="463" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[3, 4]" x1="430" y1="462" x2="333" y2="462" color="#ff0000" width="5" arrowSize="4" />
+
+---
+level: 3
+---
+
+# Themes
+
+VSC comes with many themes but even more can be found at **https://vscodethemes.com/**.
+
+Here are some of our favorites
 
 <div grid="~ cols-2 gap-2" m="-t-2">
 
-```yaml
----
-theme: default
----
-```
+Borhan - Your Favorite
 
-```yaml
----
-theme: seriph
----
-```
+Dante - [Noctics Obescuro](https://vscodethemes.com/e/liviuschera.noctis/noctis-obscuro?language=javascript)
 
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true">
+<img border="rounded" src="images/synthWave.png">
 
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true">
+<img border="rounded" src="images/Noctis.png">
 
 </div>
 
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
+Look at themes available and pick your favorite but . . . 
+<h2 v-click="[1, 2]">FLASH WARNING!!!</h2>
 
 ---
-preload: false
+level: 3
 ---
 
-# Animations
+# If You Like This One Then . . . 
 
-Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
+<img border="rounded mx-auto d-block" src="images/lightMode.png">
 
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }">
-  Slidev
-</div>
-```
-
-<div class="w-60 relative mt-6">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-square.png"
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-circle.png"
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-triangle.png"
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 40, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn More](https://sli.dev/guide/animations.html#motion)
-
-</div>
 
 ---
 
