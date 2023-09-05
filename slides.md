@@ -17,7 +17,7 @@ title: VS Code and WSL Workshop​
 ---
 
 <div class="abs-tr m-6 flex gap-2">
-  <img src="https://css.uwindsor.ca/assets/css-logo-e8caf3b2fe077d9e27b1b5ffc5e1c37d5cbd3c8807151393bc75144f1de30433.png" width="200"/>
+  <img src="https://css.uwindsor.ca/images/css-logo-shield.png" width="100"/>
 </div>
 
 # VS Code and WSL Workshop​
