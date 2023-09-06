@@ -25,7 +25,7 @@ jobs:
               run: |
                   npm install
                   npm i -g @slidev/cli
-                  slidev build --base cssworkshop2023
+                  slidev build --base css-workshop-2023
             - name: Deploy to GitHub Pages
               if: success()
               uses: crazy-max/ghaction-github-pages@v2
