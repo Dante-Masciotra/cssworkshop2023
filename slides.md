@@ -125,23 +125,23 @@ VSC has large library of extensions check them out in extensions tab or at **htt
 
 Here are some of our favorites
 
-<div class="text-center" grid="~ cols-2 gap-2" m="-t-2">
-
-<h2>Borhan</h2>
-
-<h2>Dante</h2>
-
-1
+<div class="text-xl font-bold text-center" grid="~ cols-2 gap-2" m="-t-2">
 
 Code Runner
 
-2
-
 Git Graph
 
-3
-
 GitLens
+
+Error Lens
+
+Auto Rename Tag
+
+TODO Highlight
+
+Code Spell Checker
+
+Markdown Preview Enhanced
 
 </div>
 
