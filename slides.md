@@ -244,12 +244,18 @@ class: text-center
 ---
 # Install
 #### To install WSL run the below command in PowerShell. This will install the default Distro which is the latest version of Ubuntu
-<br>
+
+<div class="w-full flex justify-center items-center gap-5 ">
+
+<div class="w-1/2">
 
   ```bash
   wsl --intsall
   ```
-<br>
+</div>
+
+<img class="rounded w-1/2 d-block" src="/images/WSLInstall.png"/>
+</div>
 
 #### To look for available Distros 
 <br>
