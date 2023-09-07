@@ -15,18 +15,6 @@
     "slidev",
     "slidev-penguin"
   ],
-  "slidev": {
-    "colorSchema": "both",
-    "highlighter": "shiki",
-    "default": {
-      "aspectRatio": "16/9",
-      "fonts": {
-        "sans": "Inter",
-        "title": "Gilroy",
-        "mono": "Fira Code"
-      }
-    }
-  },
   "scripts": {
     "dev": "slidev example.md --open",
     "build": "slidev build example.md",

@@ -14,7 +14,7 @@
 <style>
 .slidev-layout.intro {
   h1 {
-    @apply text-6xl leading-20 font-display font-extrabold text-primary;
+    @apply text-6xl leading-20 font-extrabold text-primary;
   }
 
   h1 + p {
