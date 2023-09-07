@@ -1,12 +1,5 @@
 ---
-theme: seriph
-fonts:
-  # basically the text
-  sans: 'Robot'
-  # use with `font-serif` css class from windicss
-  serif: 'Robot Slab'
-  # for code blocks, inline code, etc.
-  mono: 'Fira Code'
+theme: ./theme
 background: >-
   https://images.unsplash.com/photo-1616941482131-489295011919?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHw5NDczNDU2Nnx8fHx8fHwxNjkzNjEwMTU1&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920
 class: text-center
@@ -19,6 +12,7 @@ drawings:
 transition: slide-left
 title: VS Code and WSL Workshop​
 hideInToc: true
+layout: intro
 ---
 
 <div class="abs-tr m-6 flex gap-2">
@@ -240,7 +234,7 @@ level: 2
 class: text-center 
 ---
 # Install
-### To install WSL run the below command in PowerShell. This will install the default Distro which is the latest version of Ubuntu
+#### To install WSL run the below command in PowerShell. This will install the default Distro which is the latest version of Ubuntu
 <br>
 
   ```bash
@@ -249,7 +243,7 @@ class: text-center
 <br>
 <br>
 
-### To look for available Distros 
+#### To look for available Distros 
 <br>
 
   ```bash
@@ -258,7 +252,7 @@ class: text-center
 <br>
 <br>
 
-### Then to install a desired distro
+#### Then to install a desired distro
 <br>
 
  ```bash
@@ -274,7 +268,7 @@ class: text-center
 
 # Config
 
-### If you want to run mutiple Distros than here are some helpful commands to config WSL to your prefences
+#### If you want to run mutiple Distros than here are some helpful commands to config WSL to your prefences
 
 <br>
 To set default Distro
@@ -285,7 +279,7 @@ To set default Distro
 
 <br>
 
-### If forget your password you'll need to run the following commands
+#### If forget your password you'll need to run the following commands
 
   ```bash
   wsl -u root

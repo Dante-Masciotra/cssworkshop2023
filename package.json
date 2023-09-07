@@ -3,12 +3,16 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
-    "dev": "slidev --open",
+    "dev": "slidev",
     "export": "slidev export"
   },
   "dependencies": {
     "@slidev/cli": "^0.43.0-beta.3",
     "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest"
+    "@slidev/theme-seriph": "latest",
+    "slidev-theme-penguin": "^2.1.0"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.35"
   }
 }
