@@ -46,30 +46,23 @@ hideInToc: true
   ## Dante Masciotra
   <img src="https://media.licdn.com/dms/image/D5603AQFRwMqQu9pwpA/profile-displayphoto-shrink_200_200/0/1687574028651?e=1698883200&v=beta&t=nsK2U505EGCWTTjxslJmi4jBwOHikRvdNSBeeiJBkQo" style=" border-radius: 50%; float:left; margin: 10px 50px 0px 0px;" />
   <br>
-  <br>
-  <div class="text-left">
+  <div class="max-w-[600px] text-center">
 
-  - 📝 4th Year Student
-  - 🎨 Runs a Cooking Instagram Page [@dante.al.dente](https://www.instagram.com/dante.al.dente/) 
-  - 🧑‍💻 Winner of Hack The North 2022
+  I'm a fourth year Computer Science student, specializing in Networks and Security. I'm currently the Co-head of Technology for the Computer Science Society.
 
   </div>
 </div>
 
-<div class="w-full text-right">
-
-<div className="pr-42">
+<div class="text-right">
 
   ## Borhan Salfo
 
-</div>
-  <img src="https://media.licdn.com/dms/image/C5603AQHs9AIshA0psQ/profile-displayphoto-shrink_200_200/0/1658601814664?e=1698883200&v=beta&t=qMjsbI1n3U1PMsMshUPNiMQMalMS51e-igg5XZsxtYM" style=" border-radius: 50%; float:right;  margin: 10px 0px 0px 50px;" />
-  <div class="w-full flex justify-end">
-   <div class="max-w-[350px] text-left">
+  <img src="https://media.licdn.com/dms/image/C5603AQHs9AIshA0psQ/profile-displayphoto-shrink_200_200/0/1658601814664?e=1698883200&v=beta&t=qMjsbI1n3U1PMsMshUPNiMQMalMS51e-igg5XZsxtYM" style=" border-radius: 50%; float:right;  margin: 10px 0px 0px 10px;" />
+  <div class="max-w-[350px] text-center" style="float: left;">
+  <br>
 
   I'm a third year Computer Science student, specializing in Software Engineering. I'm currently the Co-head of Technology and the Career Advisor for the Computer Science Society.
 
-</div>
 </div>
 </div>
 
@@ -103,8 +96,8 @@ level: 2
 ---
 
 # File Explorer
-  <img class="rounded mx-auto d-block"  x1="0" y1="0" src="/images/FileExplorerVSC.png" />
-  <arrow v-click="[1, 2]" x1="200" y1="125" x2="80" y2="125" color="#ff0000" width="5" arrowSize="4" />
+  <img class="rounded mx-auto d-block" src="/images/FileExplorerVSC.png" />
+  <arrow v-click="[1, 2]" x1="100" y1="100" x2="20" y2="100" color="#ff0000" width="5" arrowSize="4" />
 
 
 ---
@@ -115,7 +108,7 @@ level: 2
 # Extensions
   <img  class="rounded mx-auto d-block" src="/images/baseVSC.png" />
 
-  <arrow v-click="[1, 2]" x1="200" y1="210" x2="80" y2="210" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[1, 2]" x1="100" y1="187" x2="20" y2="187" color="#ff0000" width="5" arrowSize="4" />
 
 ---
 level: 3
@@ -158,9 +151,9 @@ level: 2
 
   <img  class="rounded mx-auto d-block" src="/images/themeVSC1.png" />
 
-  <arrow v-click="[1, 2]" x1="90" y1="350" x2="90" y2="460" color="#ff0000" width="5" arrowSize="4" />
-  <arrow v-click="[2, 3]" x1="270" y1="463" x2="140" y2="463" color="#ff0000" width="5" arrowSize="4" />
-  <arrow v-click="[3, 4]" x1="430" y1="462" x2="333" y2="462" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[1, 2]" x1="50" y1="330" x2="11" y2="440" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[2, 3]" x1="150" y1="437" x2="60" y2="437" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[3, 4]" x1="350" y1="437" x2="253" y2="437" color="#ff0000" width="5" arrowSize="4" />
 
 ---
 transition: fade-out
@@ -205,9 +198,9 @@ level: 2
 # Remote Explorer
   <img  class="rounded mx-auto d-block" src="/images/sshVSC.png" />
 
-  <arrow v-click="[1, 2]" x1="200" y1="217" x2="80" y2="217" color="#ff0000" width="5" arrowSize="4" />
-  <arrow v-click="[2, 3]" x1="270" y1="155" x2="155" y2="155" color="#ff0000" width="5" arrowSize="4" />
-  <arrow v-click="[3, 4]" x1="600" y1="117" x2="460" y2="117" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[1, 2]" x1="120" y1="192" x2="22" y2="192" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[2, 3]" x1="270" y1="132" x2="155" y2="132" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[3, 4]" x1="500" y1="94" x2="400" y2="94" color="#ff0000" width="5" arrowSize="4" />
 
 ---
 level: 3
@@ -244,12 +237,18 @@ class: text-center
 ---
 # Install
 #### To install WSL run the below command in PowerShell. This will install the default Distro which is the latest version of Ubuntu
-<br>
+
+<div class="w-full flex justify-center items-center gap-5 ">
+
+<div class="w-1/2">
 
   ```bash
   wsl --intsall
   ```
-<br>
+</div>
+
+<img class="rounded w-1/2 d-block" src="/images/WSLInstall.png"/>
+</div>
 
 #### To look for available Distros 
 <br>
