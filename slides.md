@@ -401,3 +401,19 @@ level: 3
 ---
 
 # Thank You for Listening
+
+### Check out the slideshow here
+<br>
+<img class="rounded mx-auto d-block" src="/images/QR.png"  width="200"/>
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+/>
+<br>
+<div class="">
+  <a class="fab text-decoration-none m-2 fa-instagram" target="_black" href="https://instagram.com/uwindsorcss"></a>
+  <a class="fab text-decoration-none m-2 fa-twitter" target="_black" href="https://x.com/UWindsorCSS"></a>
+  <a class="fab text-decoration-none m-2 fa-facebook" target="_black" href="https://facebook.com/uwindsorcss"></a>
+  <a class="fab text-decoration-none m-2 fa-github" target="_black" href="https://github.com/uwindsorcss"></a>
+</div>
