@@ -56,18 +56,20 @@ hideInToc: true
   </div>
 </div>
 
-<div class="text-right">
+<div class="w-full text-right">
+
+<div className="pr-42">
 
   ## Borhan Salfo
+
+</div>
   <img src="https://media.licdn.com/dms/image/C5603AQHs9AIshA0psQ/profile-displayphoto-shrink_200_200/0/1658601814664?e=1698883200&v=beta&t=qMjsbI1n3U1PMsMshUPNiMQMalMS51e-igg5XZsxtYM" style=" border-radius: 50%; float:right;  margin: 10px 0px 0px 50px;" />
-  <br>
-  <br>
- <div dir="rtl">
+  <div class="w-full flex justify-end">
+   <div class="max-w-[350px] text-left">
 
-  - 📝 FACTS ABOUT ME
-  - 🎨 FACTS ABOUT ME
-  - 🧑‍💻 FACTS ABOUT ME
+  I'm a third year Computer Science student, specializing in Software Engineering. I'm currently the Co-head of Technology and the Career Advisor for the Computer Science Society.
 
+</div>
 </div>
 </div>
 
