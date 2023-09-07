@@ -153,8 +153,8 @@ level: 2
 
 
   <arrow v-click="[1, 2]" x1="50" y1="330" x2="11" y2="460" color="#ff0000" width="5" arrowSize="4" />
-  <arrow v-click="[2, 3]" x1="150" y1="437" x2="60" y2="437" color="#ff0000" width="5" arrowSize="4" />
-  <arrow v-click="[3, 4]" x1="350" y1="437" x2="253" y2="437" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[2, 3]" x1="150" y1="457" x2="60" y2="457" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[3, 4]" x1="350" y1="457" x2="253" y2="457" color="#ff0000" width="5" arrowSize="4" />
 
 ---
 transition: fade-out
