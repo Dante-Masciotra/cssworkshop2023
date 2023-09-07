@@ -241,7 +241,6 @@ class: text-center
   wsl --intsall
   ```
 <br>
-<br>
 
 #### To look for available Distros 
 <br>
@@ -249,7 +248,6 @@ class: text-center
   ```bash
   wsl --list --online
   ```
-<br>
 <br>
 
 #### Then to install a desired distro
@@ -272,6 +270,8 @@ class: text-center
 
 <br>
 To set default Distro
+<br>
+<br>
 
   ```bash
   wsl --set-default Distribution-Name
@@ -280,6 +280,7 @@ To set default Distro
 <br>
 
 #### If forget your password you'll need to run the following commands
+<br>
 
   ```bash
   wsl -u root
@@ -296,6 +297,7 @@ class: text-center
 <br>
 To run a WSL in a desired folder open your desired path in CMD or Powershell
 <br>
+<br>
 
   ```bash
   C:\your\path> wsl
@@ -303,6 +305,8 @@ To run a WSL in a desired folder open your desired path in CMD or Powershell
 <br>
 To run a Distro that is not default
 <br>
+<br>
+
 
   ```bash
   C:\your\path> wsl --distribution Distribution Name 
