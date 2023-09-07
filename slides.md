@@ -13,14 +13,12 @@ class: text-center
 highlighter: shiki
 lineNumbers: false
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+  ## VS Code and WSL Workshop​
 drawings:
   persist: false
 transition: slide-left
 title: VS Code and WSL Workshop​
+hideInToc: true
 ---
 
 <div class="abs-tr m-6 flex gap-2">
@@ -29,25 +27,7 @@ title: VS Code and WSL Workshop​
 
 # VS Code and WSL Workshop​
 
-
-
-Presentation slides for developwers
-
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
-
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
-    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-</div>
+By: Dante Masciotra and Borhan Saflo
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
@@ -55,10 +35,10 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 
-# Who Are We?
-
+# Meet the Presenters
 
 <div>
 
@@ -75,8 +55,6 @@ transition: fade-out
   </div>
 </div>
 
-
-
 <div class="text-right">
 
   ## Borhan Salfo
@@ -92,30 +70,9 @@ transition: fade-out
 </div>
 </div>
 
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
-
 ---
 layout: default
+hideInToc: true
 ---
 
 # Table of contents
@@ -189,31 +146,6 @@ GitLens
 
 
 ---
-transition: slide-up
-level: 2
----
-
-# Remote Explorer
-  <img  class="rounded mx-auto d-block" src="/images/sshVSC.png" />
-
-  <arrow v-click="[1, 2]" x1="200" y1="217" x2="80" y2="217" color="#ff0000" width="5" arrowSize="4" />
-  <arrow v-click="[2, 3]" x1="270" y1="155" x2="155" y2="155" color="#ff0000" width="5" arrowSize="4" />
-  <arrow v-click="[3, 4]" x1="600" y1="117" x2="460" y2="117" color="#ff0000" width="5" arrowSize="4" />
-
----
-level: 3
----
-
-# Remote Explorer Path
-
-<div class="text-center">
-
-```bash
-ssh [Username]@cs.uwindsor.ca
-```
-</div>
-
----
 class: px-20
 transition: slide-up
 level: 2
@@ -260,6 +192,32 @@ level: 3
 # If You Like This One Then . . . 
 
 <img border="rounded mx-auto d-block" src="/images/lightMode.png">
+
+
+---
+transition: slide-up
+level: 2
+---
+
+# Remote Explorer
+  <img  class="rounded mx-auto d-block" src="/images/sshVSC.png" />
+
+  <arrow v-click="[1, 2]" x1="200" y1="217" x2="80" y2="217" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[2, 3]" x1="270" y1="155" x2="155" y2="155" color="#ff0000" width="5" arrowSize="4" />
+  <arrow v-click="[3, 4]" x1="600" y1="117" x2="460" y2="117" color="#ff0000" width="5" arrowSize="4" />
+
+---
+level: 3
+---
+
+# Remote Explorer Path
+
+<div class="text-center">
+
+```bash
+ssh [Username]@cs.uwindsor.ca
+```
+</div>
 
 
 ---
