@@ -266,7 +266,7 @@ class: text-center
 
 # Config
 
-#### If you want to run mutiple Distros than here are some helpful commands to config WSL to your prefences
+#### If you want to run multiple Distros than here are some helpful commands to config WSL to your preferences
 
 <br>
 To set default Distro
