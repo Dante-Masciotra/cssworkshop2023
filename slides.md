@@ -173,11 +173,11 @@ Here are some of our favorites
 
 <div grid="~ cols-2 gap-2" m="-t-2">
 
-Borhan - Your Favorite
+Borhan - [Gruvbox](https://vscodethemes.com/e/jdinhlife.gruvbox?language=javascript)
 
 Dante - [Noctics Obescuro](https://vscodethemes.com/e/liviuschera.noctis/noctis-obscuro?language=javascript)
 
-<img border="rounded" src="/images/synthWave.png">
+<img border="rounded" src="/images/gruvbox.png" style="width: 400px; height: 210px; object-fit: cover;">
 
 <img border="rounded" src="/images/Noctis.png">
 
